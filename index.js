@@ -1,10 +1,6 @@
 // Your code here
 function createEmployeeRecord(employee) {
-<<<<<<< HEAD
   const record = {
-=======
-  const employee = {
->>>>>>> d528e3652403eebd3fa1bed7ad1351f846ed6a58
     "firstName": employee[0],
     "familyName": employee[1],
     "title": employee[2],
@@ -12,16 +8,11 @@ function createEmployeeRecord(employee) {
     "timeInEvents": [],
     "timeOutEvents": []
   };
-<<<<<<< HEAD
   return record
-=======
-  return employee
->>>>>>> d528e3652403eebd3fa1bed7ad1351f846ed6a58
 };
 
 function createEmployeeRecords(employees) {
   return employees.map(x => createEmployeeRecord(x));
-<<<<<<< HEAD
 };
 
 function createTimeInEvent(employee, time){
@@ -64,6 +55,4 @@ function calculatePayroll(employees) {
 
 function findEmployeeByFirstName(employees, name) {
   return employees.find(x => x.firstName === name)
-=======
->>>>>>> d528e3652403eebd3fa1bed7ad1351f846ed6a58
 }
